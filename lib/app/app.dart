@@ -9,7 +9,6 @@ export 'app_config.dart';
 export 'app_const.dart';
 export 'app_deeplink.dart';
 export 'app_widget_state.dart';
-export 'app_notice.dart';
 
 final routeObserver = RouteObserver<ModalRoute>();
 

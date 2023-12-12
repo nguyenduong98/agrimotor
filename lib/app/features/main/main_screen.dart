@@ -36,12 +36,6 @@ class MainScreenState extends WidgetState<MainScreen>
     setState(() {});
   }
 
-  @override
-  void afterFirstFrame(BuildContext context) {
-    super.afterFirstFrame(context);
-    // PushNotification.instance.handleInitialNotification();
-  }
-
   void changePage(int index) {
     // if (index == pageIndex) return;
     // if (index == 0) context.goNamed(CategoryRoutes.root);

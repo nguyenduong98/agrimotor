@@ -5,9 +5,6 @@ import 'app_config.dart';
 class AppCubit extends BaseCubit<AppState> {
   AppCubit() : super(const AppState());
 
-  // final AuthRepository authRepo;
-  // final ConfigRepository configRepo;
-
   Future<void> onInit() async {
     try {
       if (state.isInitialized) return;
@@ -105,7 +102,7 @@ class AppState extends BaseState {
         enableUpdate: enableUpdate ?? this.enableUpdate,
         hasInternet: hasInternet ?? this.hasInternet,
       );
-      
+
   @override
   List<Object?> get props => [
         isLoading,

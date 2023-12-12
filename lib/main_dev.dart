@@ -7,13 +7,7 @@ void main() {
     //
     //
     runApp(const LotteMartApp());
-  }, (error, stack) {
-    // FirebaseCrashlytics.instance.recordError(
-    //   error,
-    //   stack,
-    //   fatal: true,
-    // );
-  });
+  }, (error, stack) {});
 }
 
 Future<void> initializeComponents(Env env) async {
@@ -21,14 +15,7 @@ Future<void> initializeComponents(Env env) async {
   WidgetsFlutterBinding.ensureInitialized();
   AppConfig.getInstance().init(env);
 
-  //
-  // await Firebase.initializeApp();
-
-  await Future.wait([
-    // PushNotification.instance.init(),
-    AppDeeplinkHandler.instance.init(),
-    // FirebaseCrashlytics.instance.setCrashlyticsCollectionEnabled(!kDebugMode),
-  ]);
+  await Future.wait([AppDeeplinkHandler.instance.init()]);
 
   await MapUtil.requestLocationPermission();
 

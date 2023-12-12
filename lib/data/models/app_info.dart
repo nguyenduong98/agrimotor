@@ -1,4 +1,4 @@
-part of 'entities.dart';
+part of 'models.dart';
 
 class AppInfo extends Equatable {
   final String? bundleId;
