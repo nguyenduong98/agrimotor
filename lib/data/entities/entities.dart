@@ -1,0 +1,37 @@
+import 'package:flutter/foundation.dart';
+
+import '../../core/core.dart';
+
+part 'user.dart';
+part 'token.dart';
+part 'app_info.dart';
+part 'province_model.dart';
+part 'product.dart';
+part 'rating.dart';
+part 'review_comment.dart';
+part 'review_summary_detail.dart';
+part 'store_branch.dart';
+part 'cart.dart';
+part 'address.dart';
+part 'social_auth.dart';
+part 'filters.dart';
+part 'category.dart';
+part 'wish_list.dart';
+part 'coupon.dart';
+part 'segments.dart';
+part 'review_image.dart';
+part 'delivery_time.dart';
+part 'delivery_area.dart';
+part 'order_stats.dart';
+part 'faq_category.dart';
+part 'faq.dart';
+part 'notification.dart';
+part 'popup_entity.dart';
+part 'inquiry_type.dart';
+part 'inquiry_image.dart';
+part 'inquiry.dart';
+part 'rma_reason.dart';
+part 'banner.dart';
+part 'tiktok_token.dart';
+part 'got_it_voucher.dart';
+part 'event_store.dart';
